@@ -11,7 +11,7 @@ def intersection(nums1, nums2):
             if(i in nums1):
                 res.append(i)
     return res
-    
+
 nums1 = list(map(int,input().split()))
 nums2 = list(map(int,input().split()))
-print(intersection(nums1, nums2))
+print(*(intersection(nums1, nums2)))
